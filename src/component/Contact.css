@@ -1,0 +1,87 @@
+
+.fullcon{
+    margin-top: 130px;
+    
+}
+
+.contactform{
+    width: 700px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+
+}
+form{
+    margin: 30px;
+}
+.usname{
+    border-bottom: 2px solid black;
+    margin: 30px;
+}
+.usname input{  
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee); 
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.contactform h3{
+    color: rgb(21, 88, 231);
+    text-align: center;
+    margin: 20px;
+}
+.footer{
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee); 
+
+    position: absolute;
+    text-align: center;
+    /* bottom: 0px; */
+    width: 100%;
+}
+.footer h4{
+    margin: 10px;
+    color: white;
+}
+.footer h5{
+    /* margin: 10px; */
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.fa-custom1{
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
+@media screen and (max-width: 720px) {
+    .contactform{
+        width: 400px;
+    }
+    .fa-custom1{
+        font-size: 20px;
+        padding: 0px;
+        border: none;
+
+    }
+    .logo{
+        border: none;
+    }
+    
+}
